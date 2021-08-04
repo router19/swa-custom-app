@@ -3,6 +3,10 @@
     {
       "route": "/index.html",
       "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/login",
+      "rewrite": "/.auth/login/auth0"
     }
   ],
   "auth": {
